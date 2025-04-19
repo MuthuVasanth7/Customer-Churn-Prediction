@@ -1,14 +1,14 @@
-# 📉 Customer Churn Prediction
+# Customer Churn Prediction
 
 This project aims to predict whether a customer will churn (leave) or stay with a service using machine learning techniques. The model is trained on customer data and leverages various features related to user behavior and account information to make accurate predictions.
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Customer churn is a critical metric for subscription-based businesses. Being able to predict churn in advance allows companies to take proactive actions to retain their customers. This project uses historical customer data to train machine learning models to predict churn status.
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 The dataset contains customer details such as:
 - Demographic information (Gender, Age)
@@ -19,7 +19,7 @@ The dataset contains customer details such as:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Pandas, NumPy
@@ -30,7 +30,7 @@ The dataset contains customer details such as:
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 - Checked for missing values
 - Visualized distributions and correlations
@@ -39,7 +39,7 @@ The dataset contains customer details such as:
 
 ---
 
-## 🤖 Models Trained
+##  Models Trained
 
 | Model              | Accuracy | Precision | Recall  | F1      | ROC AUC |
 |--------------------|----------|-----------|---------|---------|---------|
@@ -50,7 +50,7 @@ The dataset contains customer details such as:
 | SVM                | 0.686567 | 0.450517  | 0.815508| 0.580400| 0.826163|
 
 
-## 🧪 Evaluation Metrics
+##  Evaluation Metrics
 
 - Confusion Matrix
 - ROC-AUC Curve
@@ -58,7 +58,7 @@ The dataset contains customer details such as:
 - Cross-validation
 
 
-## 💡 Key Insights
+## Key Insights
 
 - Customers with month-to-month contracts churn more often
 - High monthly charges correlate with higher churn probability
@@ -66,7 +66,7 @@ The dataset contains customer details such as:
 
 ---
 
-## 🚀 Future Work
+##  Future Work
 
 - Integrate real-time churn prediction using a web interface (Streamlit/Flask)
 - Use more advanced feature selection techniques
