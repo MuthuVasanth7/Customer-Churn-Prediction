@@ -1,0 +1,13 @@
+# Core Dependencies
+pandas==2.0.3
+numpy==1.24.3
+
+# Visualization Libraries
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Machine Learning and Evaluation
+scikit-learn==1.2.2
+
+# Jupyter Support (for notebooks)
+jupyter==1.0.0
