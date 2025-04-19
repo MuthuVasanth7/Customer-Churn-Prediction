@@ -17,8 +17,6 @@ The dataset contains customer details such as:
 - Monthly and Total charges
 - Target variable: `Churn` (Yes/No)
 
-> *Note: Dataset source - [Insert source if public, e.g., Kaggle link]*
-
 ---
 
 ## 🛠️ Technologies Used
@@ -27,7 +25,7 @@ The dataset contains customer details such as:
 - Pandas, NumPy
 - Matplotlib, Seaborn
 - Scikit-learn
-- XGBoost / Random Forest (if used)
+- XGBoost / Random Forest / SVM
 - Jupyter Notebook / VS Code
 
 ---
@@ -43,15 +41,14 @@ The dataset contains customer details such as:
 
 ## 🤖 Models Trained
 
-| Model               | Accuracy | Precision | Recall | F1-Score |
-|--------------------|----------|-----------|--------|----------|
-| Logistic Regression| XX%      | XX%       | XX%    | XX%      |
-| Random Forest      | XX%      | XX%       | XX%    | XX%      |
-| XGBoost            | XX%      | XX%       | XX%    | XX%      |
+| Model              | Accuracy | Precision | Recall  | F1      | ROC AUC |
+|--------------------|----------|-----------|---------|---------|---------|
+| Gradient Boosting  | 0.791045 | 0.637931  | 0.494652| 0.557229| 0.839909|
+| Random Forest      | 0.725657 | 0.490164  | 0.799465| 0.607724| 0.836599|
+| Logistic Regression| 0.725657 | 0.490099  | 0.794118| 0.606122| 0.834218|
+| XGBoost            | 0.727790 | 0.492487  | 0.788770| 0.606372| 0.833914|
+| SVM                | 0.686567 | 0.450517  | 0.815508| 0.580400| 0.826163|
 
-> *Model performance based on test set evaluation.*
-
----
 
 ## 🧪 Evaluation Metrics
 
@@ -60,7 +57,6 @@ The dataset contains customer details such as:
 - Classification Report
 - Cross-validation
 
----
 
 ## 💡 Key Insights
 
@@ -76,18 +72,4 @@ The dataset contains customer details such as:
 - Use more advanced feature selection techniques
 - Tune models using GridSearchCV
 - Address class imbalance using SMOTE or similar techniques
-
----
-
-## 📬 Contact
-
-For questions or feedback, feel free to reach out:
-
-**Muthu Vasanth**  
-[pvsbym@gmail.com]
-
----
-
-⭐️ If you found this useful, give it a star on GitHub!
-
 
